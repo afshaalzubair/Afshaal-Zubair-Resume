@@ -74,13 +74,13 @@ cv:
           - 'Tools Used: C'
     skills:
       - label: Languages
-        details: 
+        details: Java, Python, HTML, CSS, JavaScript
       - label: Frameworks/Libraries
-        details: 
+        details: React.js, Next.js, Node.js, Tailwind CSS, PyTorch 
       - label: Developer Tools
-        details: 
+        details: Git, GitHub, VSCode, Eclipse
       - label: Other Skills
-        details: 
+        details: Microsoft Office, Adobe Premiere Pro, Spline 3D
 
 design:
   theme: sb2nov
