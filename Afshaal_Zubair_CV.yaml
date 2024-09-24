@@ -2,7 +2,7 @@ cv:
   name: Afshaal Zubair
   location: Rosenberg, TX
   email: afshaalzubair@outlook.com
-  phone: tel:+281-654-6912
+  phone: tel:+1-281-654-6912
   #website: https://yourwebsite.com/
   social_networks:
     - network: LinkedIn
@@ -10,14 +10,6 @@ cv:
     - network: GitHub
       username: afshaalzubair
   sections:
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.'
     education:
       - institution: University of Texas at Austin
         area: Computer Science
@@ -27,6 +19,31 @@ cv:
         highlights:
           - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
           - '**Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory'
+    skills:
+      - label: Languages
+        details: Java, Python, HTML, CSS, JavaScript
+      - label: Frameworks/Libraries
+        details: React.js, Next.js, Node.js, Tailwind CSS, PyTorch 
+      - label: Developer Tools
+        details: Git, GitHub, VSCode, Eclipse
+      - label: Other Skills
+        details: Microsoft Office, Adobe Premiere Pro, Spline 3D
+    projects:
+      - name: Multi-User Drawing Tool
+        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+        highlights:
+          - Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
+          - 'Tools Used: C++, MFC'
+      - name: Synchronized Desktop Calendar
+        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+        highlights:
+          - Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
+          - 'Tools Used: C#, .NET, SQL, XML'
+      - name: Custom Operating System
+        date: 2002
+        highlights:
+          - Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
+          - 'Tools Used: C'
     experience:
       - company: Apple
         position: Software Engineer
@@ -48,39 +65,14 @@ cv:
           - Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
           - Created a test case generation tool that creates random XML docs from XML Schema
           - Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
-    publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        date: 2004-01
-    projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
-        highlights:
-          - Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
-        highlights:
-          - Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-          - 'Tools Used: C'
-    skills:
-      - label: Languages
-        details: Java, Python, HTML, CSS, JavaScript
-      - label: Frameworks/Libraries
-        details: React.js, Next.js, Node.js, Tailwind CSS, PyTorch 
-      - label: Developer Tools
-        details: Git, GitHub, VSCode, Eclipse
-      - label: Other Skills
-        details: Microsoft Office, Adobe Premiere Pro, Spline 3D
+    welcome_to_RenderCV!:
+      - '[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.'
+      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
+    quick_guide:
+      - bullet: Each section title is arbitrary and each section contains a list of entries.
+      - bullet: 'There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
+      - bullet: Select a section title, pick an entry type, and start writing your section!
+      - bullet: '[Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.'
 
 design:
   theme: sb2nov
