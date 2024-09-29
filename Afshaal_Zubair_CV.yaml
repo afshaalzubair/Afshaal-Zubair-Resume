@@ -1,9 +1,10 @@
+# rendercv render Afshaal_Zubair_CV.yaml
 cv:
   name: Afshaal Zubair
   location: Rosenberg, TX
   email: afshaalzubair@outlook.com
   phone: tel:+1-281-654-6912
-  #website: https://yourwebsite.com/
+  #website: 
   social_networks:
     - network: LinkedIn
       username: afshaal-zubair
@@ -17,62 +18,58 @@ cv:
         start_date: 2024-08
         end_date: 2028-05
         highlights:
-          - 'GPA: 3.9/4.0 ([a link to somewhere](https://example.com))'
-          - '**Coursework:** Computer Architecture, Comparison of Learning Algorithms, Computational Theory'
+          - '**Coursework:** CS 312 - Introduction to Programming, M 408C - Differential and Integral Calculus'
     skills:
       - label: Languages
-        details: Java, Python, HTML, CSS, JavaScript
+        details: Java, Python, JavaScript, HTML, CSS
       - label: Frameworks/Libraries
-        details: React.js, Next.js, Node.js, Tailwind CSS, PyTorch 
+        details: Node.js #, React.js, Next.js, Tailwind CSS, PyTorch 
       - label: Developer Tools
         details: Git, GitHub, VSCode, Eclipse
       - label: Other Skills
-        details: Microsoft Office, Adobe Premiere Pro, Spline 3D
+        details: Microsoft Office, Adobe Premiere Pro #, Spline 3D
     projects:
-      - name: Multi-User Drawing Tool
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+      - name: Carbonomix
+        date: '[Github Repo](https://github.com/tsasoftwaredevelopment/carbonomix)'
         highlights:
-          - Developed an electronic classroom where multiple users can simultaneously view and draw on a "chalkboard" with each person's edits synchronized
-          - 'Tools Used: C++, MFC'
-      - name: Synchronized Desktop Calendar
-        date: '[github.com/name/repo](https://github.com/sinaatalay/rendercv)'
+          - Android/IOS based app created to aid a user in lowering their carbon footprint through task management, specialized tips, and statistics.
+          - Developed using the Kivy/KivyMD Python framework.
+      - name: General Purpose Discord Bot
+        date: '[Github Repo](https://github.com/afshaalzubair/s-discord-bot)'
         highlights:
-          - Developed a desktop calendar with globally shared and synchronized calendars, allowing users to schedule meetings with other users
-          - 'Tools Used: C#, .NET, SQL, XML'
-      - name: Custom Operating System
-        date: 2002
+          - Bot for the Discord app developed in Python using the discord.py framework.
+          - Built with a variety of features including automatic giveaways, react roles, prefixes, moderation commands, prefixes, and integrated Reddit support.
+    experience: 
+      - company: Snowdrop United Corporation
+        position: Founder and Secretary
+        location: Houston, TX
+        start_date: 2022-07
+        end_date: present
         highlights:
-          - Built a UNIX-style OS with a scheduler, file system, text editor, and calculator
-          - 'Tools Used: C'
-    experience:
-      - company: Apple
-        position: Software Engineer
-        location: Cupertino, CA
-        start_date: 2005-06
-        end_date: 2007-08
+          - Kick-started a fundraising campaign and nonprofit organization to help those with food insecurity gain access to meals within the greater Houston area.
+          - Fund-raised over \$2,750 in donations. Successfully prepared, packaged, and distributed over four carloads of goods accumulating to over 1500 meal and hygiene packages across 9 Hope Events.
+          - Handled corporation logistics, tax filing, banking, social media/website outlook, and PayPal fundraising.
+      - company: Haraz Coffee House
+        position: Barista
+        location: Sugar Land, TX
+        start_date: 2023-05
+        end_date: 2024-08
         highlights:
-          - Reduced time to render user buddy lists by 75% by implementing a prediction algorithm
-          - Integrated iChat with Spotlight Search by creating a tool to extract metadata from saved chat transcripts and provide metadata to a system-wide search database
-          - Redesigned chat file format and implemented backward compatibility for search
-      - company: Microsoft
-        position: Software Engineer Intern
-        location: Redmond, WA
-        start_date: 2003-06
-        end_date: 2003-08
+          - Operated and maintained coffee and espresso machines, ensuring proper maintenance and cleanliness.
+          - Demonstrated a strong work ethic in all work stations including traditional drinks, espresso, pastries, and serving, resulting in a consistently great Yemeni coffee shop experience.
+          - Experienced in latte-art, provide stunning and high-quality lattes to customers.
+          - Regarded by fellow employees as one of the most valuable, engaged in crucial teamwork and communication to operate the store.
+    activites and organizations:
+      - position: University of Texas University Orchestra # Name
+        company: Second Chair Double Bassist # Position
+        location: Austin, TX
         highlights:
-          - Designed a UI for the VS open file switcher (Ctrl-Tab) and extended it to tool windows
-          - Created a service to provide gradient across VS and VS add-ins, optimizing its performance via caching
-          - Built an app to compute the similarity of all methods in a codebase, reducing the time from $\mathcal{O}(n^2)$ to $\mathcal{O}(n \log n)$
-          - Created a test case generation tool that creates random XML docs from XML Schema
-          - Automated the extraction and processing of large datasets from legacy systems using SQL and Perl scripts
-    welcome_to_RenderCV!:
-      - '[RenderCV](https://github.com/sinaatalay/rendercv) is a LaTeX-based CV/resume framework. It allows you to create a high-quality CV or resume as a PDF file from a YAML file, with **full Markdown syntax support** and **complete control over the LaTeX code**.'
-      - The boilerplate content was inspired by [Gayle McDowell](https://github.com/dnl-blkv/mcdowell-cv).
-    quick_guide:
-      - bullet: Each section title is arbitrary and each section contains a list of entries.
-      - bullet: 'There are 7 unique entry types: *BulletEntry*, *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*, *PublicationEntry*, and *OneLineEntry*.'
-      - bullet: Select a section title, pick an entry type, and start writing your section!
-      - bullet: '[Here](https://docs.rendercv.com/user_guide/), you can find a comprehensive user guide for RenderCV.'
+          - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
+      - position: Texas Association for Computing Machinery # Name
+        company: Member # Position
+        location: Austin, TX
+        highlights:
+          - Attend and network within a wide variety of computer science workshops and professional events.
 
 design:
   theme: sb2nov
