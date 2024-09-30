@@ -1,7 +1,3 @@
 # Afshaal-Zubair-Resume
 
-### Resources:
-### [RenderCV](https://github.com/sinaatalay/rendercv)
-### [RenderCV App](https://rendercv.com/)
-###
-#### To render: rendercv render Full_Name_CV.yaml
+### [View Current Version (PDF)](https://github.com/afshaalzubair/Afshaal-Zubair-Resume/blob/main/Resumes/Version%202.0/Afshaal_Zubair_CV.pdf)
