@@ -4,7 +4,7 @@ cv:
   location: Rosenberg, TX
   email: afshaalzubair@outlook.com
   phone: tel:+1-281-654-6912
-  #website: 
+  website: https://www.afshaalzubair.com
   social_networks:
     - network: LinkedIn
       username: afshaal-zubair
@@ -23,11 +23,11 @@ cv:
       - label: Languages
         details: Java, Python, JavaScript, HTML, CSS
       - label: Frameworks/Libraries
-        details: Node.js #, React.js, Next.js, Tailwind CSS, PyTorch 
+        details: Node.js, React.js, PyTorch #Next.js, Tailwind CSS
       - label: Developer Tools
-        details: Git, GitHub, VSCode, Eclipse
+        details: Git, GitHub, VSCode, Eclipse, Vite
       - label: Other Skills
-        details: Microsoft Office, Adobe Premiere Pro #, Spline 3D
+        details: Microsoft Office, Adobe Premiere Pro, Spline 3D
     projects:
       - name: Carbonomix
         date: '[Github Repo](https://github.com/tsasoftwaredevelopment/carbonomix)'
@@ -56,9 +56,8 @@ cv:
         end_date: 2024-08
         highlights:
           - Operated and maintained coffee and espresso machines, ensuring proper maintenance and cleanliness.
-          - Demonstrated a strong work ethic in all work stations including traditional drinks, espresso, pastries, and serving, resulting in a consistently great Yemeni coffee shop experience.
+          - Demonstrated a strong work ethic in all work stations across traditional drinks, espresso, pastries, and serving, regarded by fellow employees as one of the most valuable due to crucial teamwork and communication.
           - Experienced in latte-art, provide stunning and high-quality lattes to customers.
-          - Regarded by fellow employees as one of the most valuable, engaged in crucial teamwork and communication to operate the store.
     activites and organizations:
       - position: University of Texas University Orchestra # Name
         company: Second Chair Double Bassist # Position
