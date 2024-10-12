@@ -23,7 +23,7 @@ cv:
       - label: Languages
         details: Java, Python, JavaScript, HTML, CSS
       - label: Frameworks/Libraries
-        details: Node.js, React.js, PyTorch #Next.js, Tailwind CSS
+        details: Node.js, React.js, PyTorch, Pygame #Matplotlib, Manim, Next.js, Tailwind CSS
       - label: Developer Tools
         details: Git, GitHub, VSCode, Eclipse, Vite
       - label: Other Skills
