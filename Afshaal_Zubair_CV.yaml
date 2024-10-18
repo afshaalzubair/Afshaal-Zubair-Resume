@@ -19,6 +19,7 @@ cv:
         end_date: 2028-05
         highlights:
           - '**Coursework:** CS 312 - Introduction to Programming, M 408C - Differential and Integral Calculus'
+          - Pursuing Minor in Statistics and Data Science
     skills:
       - label: Languages
         details: Java, Python, JavaScript, HTML, CSS
@@ -29,17 +30,36 @@ cv:
       - label: Other Skills
         details: Microsoft Office, Adobe Premiere Pro, Spline 3D
     projects:
+      - name: Conway's Conundrum
+        date: '[Github Repo](https://github.com/afshaalzubair/conways-game-of-life)'
+        highlights:
+          - A twist on the famous cellular automaton "Conway's Game of Life", which allows the user to experiment with a wide variety of custom parameters to create novel simulations.
+          - Built in Python using the Pygame library.
+      - name: austin.snowdropunited.org
+        date: Currently In-progress
+        highlights:
+          - Website for the Austin hub for Snowdrop United Corporation, featuring an interactive 3D landing page and information on Snowdrop's goals on feeding the homeless.
+          - Built using React.js, 3D components modeled in Spline.
       - name: Carbonomix
         date: '[Github Repo](https://github.com/tsasoftwaredevelopment/carbonomix)'
         highlights:
           - Android/IOS based app created to aid a user in lowering their carbon footprint through task management, specialized tips, and statistics.
-          - Developed using the Kivy/KivyMD Python framework.
+          - Developed alongside a team of three others using the Kivy/KivyMD Python framework.
       - name: General Purpose Discord Bot
         date: '[Github Repo](https://github.com/afshaalzubair/s-discord-bot)'
         highlights:
           - Bot for the Discord app developed in Python using the discord.py framework.
           - Built with a variety of features including automatic giveaways, react roles, prefixes, moderation commands, prefixes, and integrated Reddit support.
     experience: 
+      - company: Directed Reading Program
+        position: Deep Learning Undergraduate Researcher
+        location: Austin, TX
+        start_date: 2024-08
+        end_date: present
+        highlights:
+          - Orchestrated project based deep learning solutions, followed mentored research in meetings one hour per week.
+          - Explored a wide variety of machine learning/AI concepts including neural networks, CNNs, transformers, and diffusion models.
+          - Strengthened ability in developing deep learning models through the PyTorch framework.
       - company: Snowdrop United Corporation
         position: Founder and Secretary
         location: Houston, TX
@@ -49,26 +69,17 @@ cv:
           - Kick-started a fundraising campaign and nonprofit organization to help those with food insecurity gain access to meals within the greater Houston area.
           - Fund-raised over \$2,750 in donations. Successfully prepared, packaged, and distributed over four carloads of goods accumulating to over 1500 meal and hygiene packages across 9 Hope Events.
           - Handled corporation logistics, tax filing, banking, social media/website outlook, and PayPal fundraising.
-      - company: Haraz Coffee House
-        position: Barista
-        location: Sugar Land, TX
-        start_date: 2023-05
-        end_date: 2024-08
-        highlights:
-          - Operated and maintained coffee and espresso machines, ensuring proper maintenance and cleanliness.
-          - Demonstrated a strong work ethic in all work stations across traditional drinks, espresso, pastries, and serving, regarded by fellow employees as one of the most valuable due to crucial teamwork and communication.
-          - Experienced in latte-art, provide stunning and high-quality lattes to customers.
-    activites and organizations:
-      - position: University of Texas University Orchestra # Name
-        company: Second Chair Double Bassist # Position
-        location: Austin, TX
-        highlights:
-          - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
-      - position: Texas Association for Computing Machinery # Name
-        company: Member # Position
-        location: Austin, TX
-        highlights:
-          - Attend and network within a wide variety of computer science workshops and professional events.
+    #activites and organizations:
+      #- position: University of Texas University Orchestra # Name
+      #  company: Second Chair Double Bassist # Position
+      #  location: Austin, TX
+      #  highlights:
+      #    - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
+      #- position: Texas Association for Computing Machinery # Name
+      #  company: Member # Position
+      #  location: Austin, TX
+      #  highlights:
+      #    - Attend and network within a wide variety of computer science workshops and professional events.
 
 design:
   theme: sb2nov
