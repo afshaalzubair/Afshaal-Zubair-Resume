@@ -16,10 +16,9 @@ cv:
         area: Computer Science
         degree: Bachelor of Science
         start_date: 2024-08
-        end_date: 2028-05
+        end_date: 2027-05
         highlights:
-          - '**Coursework:** CS 312 - Introduction to Programming, M 408C - Differential and Integral Calculus'
-          - Pursuing Minor in Statistics and Data Science
+          - '**Coursework:** CS 312, CS 314, CS 311, M 408C, M 408D'
     skills:
       - label: Languages
         details: Java, Python, JavaScript, HTML, CSS
@@ -35,11 +34,6 @@ cv:
         highlights:
           - A twist on the famous cellular automaton "Conway's Game of Life", which allows the user to experiment with a wide variety of custom parameters to create novel simulations.
           - Built in Python using the Pygame library.
-      - name: austin.snowdropunited.org
-        date: Currently In-progress
-        highlights:
-          - Website for the Austin hub for Snowdrop United Corporation, featuring an interactive 3D landing page and information on Snowdrop's goals on feeding the homeless.
-          - Built using React.js, 3D components modeled in Spline.
       - name: Carbonomix
         date: '[Github Repo](https://github.com/tsasoftwaredevelopment/carbonomix)'
         highlights:
@@ -51,15 +45,6 @@ cv:
           - Bot for the Discord app developed in Python using the discord.py framework.
           - Built with a variety of features including automatic giveaways, react roles, prefixes, moderation commands, prefixes, and integrated Reddit support.
     experience: 
-      - company: Directed Reading Program
-        position: Deep Learning Undergraduate Researcher
-        location: Austin, TX
-        start_date: 2024-08
-        end_date: present
-        highlights:
-          - Orchestrated project based deep learning solutions, followed mentored research in meetings one hour per week.
-          - Explored a wide variety of machine learning/AI concepts including neural networks, CNNs, transformers, and diffusion models.
-          - Strengthened ability in developing deep learning models through the PyTorch framework.
       - company: Snowdrop United Corporation
         position: Founder and Secretary
         location: Houston, TX
@@ -69,12 +54,21 @@ cv:
           - Kick-started a fundraising campaign and nonprofit organization to help those with food insecurity gain access to meals within the greater Houston area.
           - Fund-raised over \$2,750 in donations. Successfully prepared, packaged, and distributed over four carloads of goods accumulating to over 1500 meal and hygiene packages across 9 Hope Events.
           - Handled corporation logistics, tax filing, banking, social media/website outlook, and PayPal fundraising.
-    #activites and organizations:
-      #- position: University of Texas University Orchestra # Name
-      #  company: Second Chair Double Bassist # Position
-      #  location: Austin, TX
-      #  highlights:
-      #    - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
+      - company: Directed Reading Program
+        position: Deep Learning Student
+        location: Austin, TX
+        start_date: 2024-08
+        end_date: 2024-12
+        highlights:
+          - Orchestrated project based deep learning solutions, followed mentored research in meetings one hour per week.
+          - Explored a wide variety of machine learning/AI concepts including neural networks, CNNs, transformers, and diffusion models.
+          - Strengthened ability in developing deep learning models through the PyTorch framework.
+    activites and organizations:
+      - position: University of Texas University Orchestra # Name
+        company: Double Bassist # Position
+        location: Austin, TX
+        highlights:
+          - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
       #- position: Texas Association for Computing Machinery # Name
       #  company: Member # Position
       #  location: Austin, TX
