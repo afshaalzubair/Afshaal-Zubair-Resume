@@ -1,0 +1,141 @@
+# rendercv render parttime.yaml
+cv:
+  name: Afshaal Zubair
+  location: Austin, TX
+  email: afshaalzubair@outlook.com
+  phone: tel:+1-281-654-6912
+  social_networks:
+    - network: LinkedIn
+      username: afshaal-zubair
+  sections:
+    education:
+      - institution: University of Texas at Austin
+        area: Computer Science
+        degree: Bachelor of Science
+        start_date: 2024-08
+        end_date: 2027-05
+        highlights:
+          - '**Coursework:** Data Structures, Computer Architecture, Discrete Math, Calculus I-III'
+    experience: 
+      - company: Haraz Coffee House
+        position: Barista
+        location: Sugar Land, TX
+        start_date: 2023-05
+        end_date: present
+        highlights:
+          - Operated and maintained coffee and espresso machines, ensuring proper maintenance and cleanliness.
+          - Demonstrated a strong work ethic in all work stations including traditional drinks, espresso, pastries, and serving, resulting in a consistently great Yemeni coffee shop experience.
+          - Experienced in latte-art, provide stunning and high-quality lattes to customers.
+          - Regarded by fellow employees as one of the most valuable, engaged in crucial teamwork and communication to operate the store.
+      - company: Snowdrop United Corporation
+        position: Founder and Secretary
+        location: Houston, TX
+        start_date: 2022-07
+        end_date: 2025-09
+        highlights:
+          - Kick-started a fundraising campaign and nonprofit organization to help those with food insecurity gain access to meals within the greater Houston area.
+          - Fund-raised over \$2,750 in donations. Successfully prepared, packaged, and distributed over four carloads of goods accumulating to over 1500 meal and hygiene packages across 9 Hope Events.
+          - Handled corporation logistics, tax filing, banking, social media/website outlook, and PayPal fundraising.
+      - company: Take Five String Quintet
+        position: Double Bassist
+        location: Houston, TX
+        start_date: 2021-09
+        end_date: 2023-12
+        highlights:
+          - Annually played paid Christmas gigs and at weddings locally, prepared unique repertoire and participated in coordinated rehearsals. 
+          - Performed for specific school events and external gigs such as at church, volunteered at Living Word Lutheran Church services, as well as LCISD hosted events. 
+          - Honored to play for the Superintendent and Board of Directors at the Promise to Parents Brunch event.
+    skills:
+      - label: Soft Skills
+        details: Strong Work Ethic, Time Management, Customer-Awareness, Adaptability
+      - label: Hard Skills
+        details: Toast System, MS Office, Adobe Premiere Pro, MuseScore
+      - label: Languages
+        details: English (Fluent), Urdu (Conversational)
+    hobbies, interests, goals:
+      - label: Hobbies
+        details: Bodybuilding/Fitness, Motorcycle Riding, Double Bass
+      - label: Interests
+        details: Photography, Fashion, Latte Art/Coffee, Nutrition, Music Theory
+      - label: Goals
+        details: Join HEB for the long-term as a part-time employee until graduation
+    activites and organizations:
+      - position: University of Texas University Orchestra # Name
+        company: Double Bassist # Position
+        location: Austin, TX
+        highlights:
+          - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
+
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  font_size: 10pt
+  page_size: letterpaper
+  color: '#004f90'
+  disable_external_link_icons: false
+  disable_page_numbering: false
+  page_numbering_style: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  disable_last_updated_date: false
+  last_updated_date_style: Last updated in TODAY
+  header_font_size: 24 pt
+  text_alignment: justified
+  seperator_between_connections: ''
+  use_icons_for_connections: true
+  margins:
+    page:
+      top: 1.5 cm
+      bottom: 1.5 cm
+      left: 1.5 cm
+      right: 1.5 cm
+    section_title:
+      top: 0.3 cm
+      bottom: 0.2 cm
+    entry_area:
+      left_and_right: 0.2 cm
+      vertical_between: 0.2 cm
+      date_and_location_width: 4.5 cm
+    highlights_area:
+      top: 0.10 cm
+      left: 0.4 cm
+      vertical_between_bullet_points: 0.10 cm
+    header:
+      vertical_between_name_and_connections: 0.3 cm
+      bottom: 0.3 cm
+      horizontal_between_connections: 0.5 cm
+
+locale_catalog:
+  phone_number_format: national 
+  date_style: "MONTH_ABBREVIATION YEAR" 
+  abbreviations_for_months:
+    - Jan
+    - Feb
+    - Mar
+    - Apr
+    - May
+    - Jun
+    - Jul
+    - Aug
+    - Sep
+    - Oct
+    - Nov
+    - Dec
+  full_names_of_months:
+    - January
+    - February
+    - March
+    - April
+    - May
+    - June
+    - July
+    - August
+    - September
+    - October
+    - November
+    - December
+  month: month
+  months: months
+  year: year
+  years: years
+  present: present
+  to: to
+
