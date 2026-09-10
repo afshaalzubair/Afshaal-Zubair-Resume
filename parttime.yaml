@@ -13,7 +13,7 @@ cv:
         area: Computer Science
         degree: Bachelor of Science
         start_date: 2024-08
-        end_date: 2027-05
+        end_date: 2027-12
         highlights:
           - '**Coursework:** Data Structures, Computer Architecture, Discrete Math, Calculus I-III'
     experience: 
@@ -21,7 +21,7 @@ cv:
         position: Barista
         location: Sugar Land, TX
         start_date: 2023-05
-        end_date: present
+        end_date: 2026-08
         highlights:
           - Operated and maintained coffee and espresso machines, ensuring proper maintenance and cleanliness.
           - Demonstrated a strong work ethic in all work stations including traditional drinks, espresso, pastries, and serving, resulting in a consistently great Yemeni coffee shop experience.
@@ -52,13 +52,13 @@ cv:
         details: Toast System, MS Office, Adobe Premiere Pro, MuseScore
       - label: Languages
         details: English (Fluent), Urdu (Conversational)
-    hobbies, interests, goals:
+    hobbies, interests, availability:
       - label: Hobbies
-        details: Bodybuilding/Fitness, Motorcycle Riding, Double Bass
+        details: Bodybuilding/Fitness, Motorcycling, Double Bass
       - label: Interests
-        details: Photography, Fashion, Latte Art/Coffee, Nutrition, Music Theory
-      - label: Goals
-        details: Join HEB for the long-term as a part-time employee until graduation
+        details: Pharmacology, Latte Art/Coffee, Nutrition, Music Theory
+      - label: Availability
+        details: Prefer to work Tuesdays and Saturdays past 4pm, can occassionally pick up shifts
     activites and organizations:
       - position: University of Texas University Orchestra # Name
         company: Double Bassist # Position
