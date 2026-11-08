@@ -4,7 +4,6 @@ cv:
   location: Rosenberg, TX
   email: afshaalzubair@outlook.com
   phone: tel:+1-281-654-6912
-  website: https://www.afshaalzubair.com
   social_networks:
     - network: LinkedIn
       username: afshaal-zubair
@@ -16,34 +15,36 @@ cv:
         area: Computer Science
         degree: Bachelor of Science
         start_date: 2024-08
-        end_date: 2027-05
+        end_date: 2027-12
         highlights:
-          - '**Coursework:** CS 312, CS 314, CS 311, M 408C, M 408D'
+          - '**Coursework:** Data Structures, Discrete Math, Computer Architecture, Operating Systems, Algorithms and Complexity, Programming for Performance, Game Programming, Ethical Hacking, Pitch to Prototype'
     skills:
       - label: Languages
-        details: Java, Python, JavaScript, HTML, CSS
+        details: C/C++, Java, Python, SQL, TypeScript/JavaScript, HTML, CSS
       - label: Frameworks/Libraries
-        details: Node.js, React.js, PyTorch, Pygame #Matplotlib, Manim, Next.js, Tailwind CSS
+        details: Node.js, React.js, PyTorch, Pygame, Matplotlib, NumPy, Next.js
       - label: Developer Tools
-        details: Git, GitHub, VSCode, Eclipse, Vite
+        details: Linux Toolchain, Git, Bash, PowerShell, Wireshark, VirtualBox, Nmap, JSON, VSCode, Vite
       - label: Other Skills
-        details: Microsoft Office, Adobe Premiere Pro, Spline 3D
+        details: Microsoft Office 365, Excel, Adobe Premiere Pro, Spline 3D
     projects:
+      - name: Ride Brief
+        date: '[Github Repo](https://github.com/afshaalzubair/ride-brief)'
+        highlights:
+          - Modeled the NHTSA FARS 2023 fatal-crash files in DuckDB and wrote SQL marts with multi-table joins, CTEs, and window functions for 6,367 motorcyclists killed in 6,275 crashes, matching the published helmet split of 4,018 used, 2,124 not used, and 225 unknown.
+          - Built an Excel briefing a non-technical reader can audit, including a data dictionary, one row per death, and COUNTIFS state and national totals checked against the SQL warehouse.
+          - Shipped a dashboard of the same metrics, left police-reported alcohol missing for 3,000 deaths instead of imputing it, and ranked states by death counts because the file has no miles-ridden exposure.
+      - name: Foundation Plate
+        date: '[Github Repo](https://github.com/afshaalzubair/foundation-plate)'
+        highlights:
+          - Formulated a mixed-integer menu model (PuLP/CBC) that fills 28 meals from 27 USDA Foundation Foods, holding each day within 10% of a calorie target and at least 95% of a protein target under a weekly grocery budget.
+          - Built a Next.js and FastAPI planner that sets targets from body stats and training days, supports food swaps and price edits, and shows remaining gaps against adult intakes for fiber, iron, potassium, calcium, and magnesium.
+          - Aggregated 4.06 million OpenPowerlifting meet rows to one best total per lifter (420,954 lifters) and compared the user’s body weight with IPF class medians for squat, bench, deadlift, and total.
       - name: Conway's Conundrum
         date: '[Github Repo](https://github.com/afshaalzubair/conways-game-of-life)'
         highlights:
           - A twist on the famous cellular automaton "Conway's Game of Life", which allows the user to experiment with a wide variety of custom parameters to create novel simulations.
           - Built in Python using the Pygame library.
-      - name: Carbonomix
-        date: '[Github Repo](https://github.com/tsasoftwaredevelopment/carbonomix)'
-        highlights:
-          - Android/IOS based app created to aid a user in lowering their carbon footprint through task management, specialized tips, and statistics.
-          - Developed alongside a team of three others using the Kivy/KivyMD Python framework.
-      - name: General Purpose Discord Bot
-        date: '[Github Repo](https://github.com/afshaalzubair/s-discord-bot)'
-        highlights:
-          - Bot for the Discord app developed in Python using the discord.py framework.
-          - Built with a variety of features including automatic giveaways, react roles, prefixes, moderation commands, prefixes, and integrated Reddit support.
     experience: 
       - company: Snowdrop United Corporation
         position: Founder and Secretary
@@ -61,14 +62,13 @@ cv:
         end_date: 2024-12
         highlights:
           - Orchestrated project based deep learning solutions, followed mentored research in meetings one hour per week.
-          - Explored a wide variety of machine learning/AI concepts including neural networks, CNNs, transformers, and diffusion models.
-          - Strengthened ability in developing deep learning models through the PyTorch framework.
-    activites and organizations:
-      - position: University of Texas University Orchestra # Name
-        company: Double Bassist # Position
-        location: Austin, TX
-        highlights:
-          - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
+          - Explored a wide variety of machine learning/AI concepts including neural networks, CNNs, transformers, and diffusion models. Strengthened ability in developing deep learning models through the PyTorch framework.
+    # activites and organizations:
+    #   - position: University of Texas University Orchestra # Name
+    #     company: Double Bassist # Position
+    #     location: Austin, TX
+    #     highlights:
+    #       - Prepare and perform two concerts per semester across a variety of classical, romantic, and modern repertoire.
       #- position: Texas Association for Computing Machinery # Name
       #  company: Member # Position
       #  location: Austin, TX
